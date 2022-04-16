@@ -8,3 +8,21 @@ int main()
   cout<<"\nSize of double : "<<sizepf(double)<<" bytes";
   return 0;
   }
+
+
+
+
+
+
+
+#include<ipstream>
+using namespace std;
+int main()
+{
+  float a,b,product;
+  cout<<"Enter two numbers : ";
+  cin>>a>>b;
+  product=a*b;
+  cout<<"Product = "<<product;
+  return 0;
+}
